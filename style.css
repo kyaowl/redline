@@ -1,0 +1,305 @@
+/* Designed by Kya / kya.nu */
+
+body
+{
+	width: 100%;
+	background: #fff;
+	color: #818181;
+	text-align: justify;
+	font: 0.9em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	line-height: 1.8em;
+	margin: 0 auto;
+}
+
+a
+{
+	color: #e38595;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #d37181;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	color: #586970;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.left
+{
+	text-align:right;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.right
+{
+	text-align: right;
+}
+
+blockquote
+{
+	border-left: 5px solid #df8392;
+	padding: 2%;
+}
+
+/* Navigation */
+
+nav
+{
+	background: #df8392;
+	padding: 2% 0 2% 0;
+	margin: 0;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+
+nav ul
+{
+	width: 60%;
+	margin: 0 auto;
+}
+
+nav ul, nav li
+{
+	margin: 0 auto;
+	padding: 0;
+	text-align: right;
+}
+
+nav li, nav a
+{
+	display: inline;
+	color: #fff;
+
+}
+
+nav a:hover
+{
+	color: #b95162;
+}
+
+nav .title
+{
+	font-size: 1.7em;
+	text-align: left;
+	float: left;
+	font-weight: bold;
+}
+
+/* Content */
+
+.content
+{
+	width: 60%;
+	margin: 2% auto;
+}
+
+.page
+{
+	width: 68%;
+	float: left;
+	margin-right: 2%;
+	padding: 0%;
+}
+
+/* Sidebar */
+
+.sidebar
+{
+	float: right;
+	width: 30%;
+	font-size: 0.9em;
+	color: #bdbdbd;
+}
+
+.sidebar ul
+{
+	padding: 0 0 0 0;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+}
+
+.sidebar li a
+{
+	display: block;
+	border-bottom: 1px solid #fff;
+}
+
+.sidebar li a:hover
+{
+	width: 100%;
+	background: #fff;
+}
+
+/*footer */
+
+.footer
+{
+	width: 60%;
+	color: #ebebeb;
+	clear: both;
+	padding-top: 1%;
+	margin: 1% auto;
+	border-top: 1px solid #ebebeb;
+	font-size: 0.8em;
+}
+
+.footer ul, .footer li
+{
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+.footer a
+{
+	color: #dbdbdb;
+}
+
+.footer a:hover
+{
+	color: #d5d5d5;
+}
+
+/* Media */
+
+@media screen and (max-width:700px){
+	nav, nav li, nav ul {
+		display: block;
+		border-radius: 0;
+		padding: 2%;
+		text-align: left;
+		margin: 0;
+		font-size: 1em;
+	}
+	
+	.content
+	{
+		width: 100%;
+	}
+	
+	.page
+	{
+		width: 92%;
+		float: none;
+		padding: 4%;
+		margin: 0;
+		border-radius: 0;
+	}
+	
+	.sidebar
+	{
+		width: 92%;
+		margin: 0;
+		padding: 4%;
+		float: none;
+		border-radius: 0;
+		border-top: 4px solid #df8392;
+	}
+	
+	.sidebar p
+	{
+		margin: 0;
+		padding: 4%;
+		border-radius: 0;
+		margin: 2% 0 2% 0;
+	}
+	
+	.sidebar ul
+	{
+		padding: 0;
+		margin: 2% 0 2% 0;
+		border-radius: 0;
+	}
+	
+	.sidebar li a
+	{
+		width: 92%;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+	}
+	
+	.footer
+	{
+		width: 96%;
+		margin: 0;
+		padding: 2%
+	}
+}
+
+
+@media screen and (max-width:450px){
+	nav, nav li, nav ul {
+		display: block;
+		border-radius: 0;
+		padding: 2%;
+		text-align: left;
+		margin: 0;
+		font-size: 1em;
+	}
+	
+	.content
+	{
+		width: 100%;
+	}
+	
+	.page
+	{
+		width: 92%;
+		float: none;
+		padding: 4%;
+		margin: 0;
+		border-radius: 0;
+	}
+	
+	.sidebar
+	{
+		width: 92%;
+		margin: 0;
+		padding: 4%;
+		float: none;
+		border-radius: 0;
+		border-top: 4px solid #df8392;
+	}
+	
+	.sidebar p
+	{
+		margin: 0;
+		padding: 4%;
+		border-radius: 0;
+		margin: 2% 0 2% 0;
+	}
+	
+	.sidebar ul
+	{
+		padding: 0;
+		margin: 2% 0 2% 0;
+		border-radius: 0;
+	}
+	
+	.sidebar li a
+	{
+		width: 92%;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+	}
+	
+	.footer
+	{
+		width: 96%;
+		margin: 0;
+		padding: 2%
+	}
+}
